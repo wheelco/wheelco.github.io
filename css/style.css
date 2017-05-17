@@ -1,13 +1,13 @@
 
 
-html, body {
-    margin: 0;
-    height: 100%;
-    background-image: url('/../images/rps.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+ html, body {
+     margin: 0;
+     height: 100%;
+     background-image: url('/../images/rps.png');
+     background-attachment: fixed;
+     background-position: center;
 }
+
 
 #computer-text {
   width: 800px;
@@ -30,8 +30,6 @@ html, body {
   font-weight: bold;
   font-size: 30px;
   color: black;
-  padding: 10px;
-  margin: 70px 45px 0px -20px;
 }
 
 .scores div {
@@ -43,16 +41,13 @@ html, body {
   border-color: black;
   color: black;
   padding: 5px;
-  margin: 0px 50px 0px -0px;
 }
 
 .buttons div {
   display: inline-block;
-  width: 230px;
-  height: 190px;
   color: white;
-  padding: 5px;
-  margin: 30px 10px 10px 0;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
   border-radius: 20%;
   cursor: pointer;
 }
@@ -66,4 +61,10 @@ html, body {
   border-radius: 50%;
   margin: 0px 0px 0px 0px;
   cursor: pointer;
+}
+
+@media screen and (max-width:799px) {
+  #body{
+    width:100%;
+  }
 }
